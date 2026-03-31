@@ -1,6 +1,7 @@
 {
   "name": "backend",
   "type": "module",
+  "private": true,
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "build": "tsc",
@@ -9,6 +10,8 @@
     "start": "node dist/index.js"
   },
   "dependencies": {
+    "@ag-ui/client": "^0",
+    "@copilotkit/runtime": "^1",
     "@hono/node-server": "^1.19.12",
     "hono": "^4.12.9"
   },
