@@ -1,3 +1,4 @@
+import 'dotenv/config'
 import { HttpAgent } from '@ag-ui/client'
 import {
   CopilotRuntime,
@@ -6,8 +7,16 @@ import {
 } from '@copilotkit/runtime'
 import { serve } from '@hono/node-server'
 import { Hono } from 'hono'
+import { cors } from 'hono/cors'
 
 const app = new Hono()
+
+const corsMiddleware = cors({
+  origin: process.env.APP_URL || 'null',
+})
+
+app.options('/api/*', corsMiddleware)
+app.use('/api/*', corsMiddleware)
 
 const serviceAdapter = new EmptyAdapter()
 
