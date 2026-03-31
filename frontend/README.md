@@ -11,6 +11,10 @@
 pnpm install
 ```
 
+### Setup
+
+1. Copy the `.env.example` file to a new `.env` file and fill out the environment variables.
+
 ### Running
 
 ```bash

@@ -19,10 +19,6 @@ const runtime = new CopilotRuntime({
   },
 })
 
-app.get('/', (c) => {
-  return c.text('Hello Hono!')
-})
-
 app.post('/api/copilotkit', async ({ req }) => {
   const { handleRequest } = copilotRuntimeNextJSAppRouterEndpoint({
     endpoint: '/api/copilotkit',
