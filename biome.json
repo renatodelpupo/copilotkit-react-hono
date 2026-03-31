@@ -30,6 +30,11 @@
       "semicolons": "asNeeded"
     }
   },
+  "json": {
+    "parser": {
+      "allowComments": true
+    }
+  },
   "linter": {
     "domains": {
       "react": "recommended"

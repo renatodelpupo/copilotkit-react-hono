@@ -12,10 +12,10 @@ importers:
         specifier: ^1
         version: 1.54.1(@ag-ui/core@0.0.48)(@types/mdast@4.0.4)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(graphql@16.13.2)(micromark-util-types@2.0.2)(micromark@4.0.2)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(signal-polyfill@0.2.2)(zod@3.25.76)
       react:
-        specifier: ^19.2.4
+        specifier: ^19
         version: 19.2.4
       react-dom:
-        specifier: ^19.2.4
+        specifier: ^19
         version: 19.2.4(react@19.2.4)
     devDependencies:
       '@biomejs/biome':
@@ -25,28 +25,28 @@ importers:
         specifier: ^4
         version: 4.2.2
       '@types/node':
-        specifier: ^24.12.0
+        specifier: ^24
         version: 24.12.0
       '@types/react':
-        specifier: ^19.2.14
+        specifier: ^19
         version: 19.2.14
       '@types/react-dom':
-        specifier: ^19.2.3
+        specifier: ^19
         version: 19.2.3(@types/react@19.2.14)
       '@vitejs/plugin-react':
-        specifier: ^6.0.1
+        specifier: ^6
         version: 6.0.1(vite@8.0.3(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(@types/node@24.12.0)(jiti@2.6.1))
       globals:
-        specifier: ^17.4.0
+        specifier: ^17
         version: 17.4.0
       tailwindcss:
         specifier: ^4
         version: 4.2.2
       typescript:
-        specifier: ~5.9.3
+        specifier: ^5
         version: 5.9.3
       vite:
-        specifier: ^8.0.1
+        specifier: ^8
         version: 8.0.3(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(@types/node@24.12.0)(jiti@2.6.1)
 
 packages:

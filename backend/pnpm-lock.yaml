@@ -15,23 +15,23 @@ importers:
         specifier: ^1
         version: 1.54.1(@ag-ui/encoder@0.0.48)(@cfworker/json-schema@4.1.1)(@copilotkitnext/shared@1.54.1)(@langchain/core@0.3.80(@opentelemetry/api@1.9.0)(openai@4.104.0(ws@8.20.0)(zod@3.25.76)))(@langchain/langgraph-sdk@1.8.2(@langchain/core@0.3.80(@opentelemetry/api@1.9.0)(openai@4.104.0(ws@8.20.0)(zod@3.25.76))))(@opentelemetry/api@1.9.0)(langchain@1.2.39(@langchain/core@0.3.80(@opentelemetry/api@1.9.0)(openai@4.104.0(ws@8.20.0)(zod@3.25.76)))(@opentelemetry/api@1.9.0)(openai@4.104.0(ws@8.20.0)(zod@3.25.76))(ws@8.20.0)(zod-to-json-schema@3.25.2(zod@3.25.76)))(ws@8.20.0)(zod-to-json-schema@3.25.2(zod@3.25.76))
       '@hono/node-server':
-        specifier: ^1.19.12
+        specifier: ^1
         version: 1.19.12(hono@4.12.9)
       hono:
-        specifier: ^4.12.9
+        specifier: ^4
         version: 4.12.9
     devDependencies:
       '@biomejs/biome':
         specifier: ^2
         version: 2.4.10
       '@types/node':
-        specifier: ^20.11.17
-        version: 20.19.37
+        specifier: ^24
+        version: 24.12.0
       tsx:
-        specifier: ^4.7.1
+        specifier: ^4
         version: 4.21.0
       typescript:
-        specifier: ^5.8.3
+        specifier: ^5
         version: 5.9.3
 
 packages:
@@ -601,8 +601,8 @@ packages:
   '@types/node@18.19.130':
     resolution: {integrity: sha512-GRaXQx6jGfL8sKfaIDD6OupbIHBr9jv7Jnaml9tB7l4v068PAOXqfcujMMo5PhbIs6ggR1XODELqahT2R8v0fg==}
 
-  '@types/node@20.19.37':
-    resolution: {integrity: sha512-8kzdPJ3FsNsVIurqBs7oodNnCEVbni9yUEkaHbgptDACOPW04jimGagZ51E6+lXUwJjgnBw+hyko/lkFWCldqw==}
+  '@types/node@24.12.0':
+    resolution: {integrity: sha512-GYDxsZi3ChgmckRT9HPU0WEhKLP08ev/Yfcq2AstjrDASOYCSXeyjDsHg4v5t4jOj7cyDX3vmprafKlWIG9MXQ==}
 
   '@types/retry@0.12.0':
     resolution: {integrity: sha512-wWKOClTTiizcZhXnPY4wikVAwmdYHp8q6DmC+EJUzAMsycb7HB32Kh9RN4+0gExjmPmZSAQjgURXIGATPegAvA==}
@@ -1573,8 +1573,8 @@ packages:
   undici-types@5.26.5:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
 
-  undici-types@6.21.0:
-    resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
+  undici-types@7.16.0:
+    resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
 
   unpipe@1.0.0:
     resolution: {integrity: sha512-pjy2bYhSsufwWlKwPc+l3cN7+wuJlK6uz0YdJEOlQDbl6jo/YlPi4mb8agUkVC8BF7V8NuzeyPNqRksA3hztKQ==}
@@ -2247,16 +2247,16 @@ snapshots:
 
   '@types/node-fetch@2.6.13':
     dependencies:
-      '@types/node': 20.19.37
+      '@types/node': 24.12.0
       form-data: 4.0.5
 
   '@types/node@18.19.130':
     dependencies:
       undici-types: 5.26.5
 
-  '@types/node@20.19.37':
+  '@types/node@24.12.0':
     dependencies:
-      undici-types: 6.21.0
+      undici-types: 7.16.0
 
   '@types/retry@0.12.0': {}
 
@@ -3303,7 +3303,7 @@ snapshots:
   type-graphql@2.0.0-rc.1(class-validator@0.14.4)(graphql-scalars@1.25.0(graphql@16.13.2))(graphql@16.13.2):
     dependencies:
       '@graphql-yoga/subscription': 5.0.5
-      '@types/node': 20.19.37
+      '@types/node': 24.12.0
       '@types/semver': 7.7.1
       graphql: 16.13.2
       graphql-query-complexity: 0.12.0(graphql@16.13.2)
@@ -3328,7 +3328,7 @@ snapshots:
 
   undici-types@5.26.5: {}
 
-  undici-types@6.21.0: {}
+  undici-types@7.16.0: {}
 
   unpipe@1.0.0: {}
 
